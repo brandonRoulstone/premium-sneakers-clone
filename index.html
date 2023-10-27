@@ -9,14 +9,41 @@
     <title>Product-Hotspot | MegaOne</title>
 </head>
 <body>
-    <div class="body">
-        <div class="d-flex flex-column flex-shrink-0 p-3" id="navBlock">
-            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;" id="menuBar"></i>
-            </a>
-            </div>
-          </div>
-       </div>
+    <div class="nav-btn">
+        <button class="btn rounded-0"
+        style="background: var(--red);" 
+              type="button" 
+              data-bs-toggle="offcanvas" 
+              data-bs-target="#offcanvasId">
+              <i class="fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i>
+      </button> 
+      <div class="offcanvas offcanvas-start" 
+          id="offcanvasId"> 
+          <div class="offcanvas-header" style="background-color: var(--red);"> 
+            <img src="https://megaone.acrothemes.com/product-hotspot/images/logo.png" alt="">
+              <button type="button" 
+                      class="text-reset btn-close" 
+                      data-bs-dismiss="offcanvas"> 
+              </button> 
+          </div> 
+          <div class="offcanvas-body" style="background-color: var(--red);"> 
+            <div class="nav-item">
+                <a class="nav-link active text-center text-white text-decoration-underline fs-3" aria-current="page" href="#">Home</a>
+              </div>
+              <br>
+              <div class="nav-item">
+                <a class="nav-link text-center text-white fs-3" href="#">Products</a>
+              </div>
+              <br>
+              <div class="nav-item">
+                <a class="nav-link text-center text-white fs-3" href="#">Reviews</a>
+              </div>
+              <br>
+              <div class="nav-item">
+                <a class="nav-link text-center text-white fs-3" href="#">Contact</a>
+              </div>
+          </div> 
+      </div>
     </div>
 
     <div class="d-flex justify-content-evenly">
